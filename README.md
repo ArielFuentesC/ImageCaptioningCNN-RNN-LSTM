@@ -1,10 +1,29 @@
 # Image Captioning with Recurrent Neural Networks
 
-The repository includes four tasks, each with a different image captioning model. The tasks are described below:
+## Overview
 
-- Task 1: A simple image captioning model using a pre-trained CNN feature extractor and a single-layer RNN. The model generates captions for images in the COCO dataset.
-- Task 2: A more complex image captioning model using a two-layer RNN and GRU cell equations. The model generates captions for images in the COCO dataset and is evaluated using the METEOR score.
-- Task 3: Another image captioning model using a two-layer RNN and LSTM cell equations. The model generates captions for images in the COCO dataset and is evaluated using the BLEU-4 and METEOR scores.
-- Task 4: A final image captioning model using a two-layer RNN, an attention model, and a different CNN feature extractor. The model generates captions for images in the COCO dataset and is evaluated using the BLEU-4 and METEOR scores.
+This repository consists of four distinct image captioning tasks, each employing a different model architecture. These tasks are as follows:
 
-Includes scripts for training, testing, and evaluating the models, as well as utility functions for data loading, preprocessing, and visualization.
+### Task 1: Simple Image Captioning
+
+- A basic image captioning model utilizing a pre-trained CNN feature extractor and a single-layer RNN.
+- Generates descriptive captions for images sourced from the COCO dataset.
+
+### Task 2: Advanced Image Captioning
+
+- A more sophisticated image captioning model featuring a two-layer RNN with GRU cell equations.
+- Produces captions for COCO dataset images and is evaluated using the METEOR score.
+
+### Task 3: LSTM-Powered Image Captioning
+
+- An image captioning model equipped with a two-layer RNN using LSTM cell equations.
+- Generates captions for COCO dataset images and evaluates performance using BLEU-4 and METEOR scores.
+
+### Task 4: Attention-Enhanced Image Captioning
+
+- The ultimate image captioning model, integrating a two-layer RNN, an attention mechanism, and a distinct CNN feature extractor.
+- Captions COCO dataset images and evaluates performance with BLEU-4 and METEOR scores.
+
+## Included Features
+
+This repository includes scripts for various tasks, including model training, testing, and evaluation. Additionally, you'll find utility functions for data loading, preprocessing, and visualization.
